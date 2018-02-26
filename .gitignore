@@ -1,0 +1,5 @@
+.idea
+secrets.js
+server/node_modules/
+client/node_modules/
+client/.nuxt

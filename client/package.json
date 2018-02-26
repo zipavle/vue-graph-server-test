@@ -1,0 +1,29 @@
+{
+  "name": "golden-thoughts-client",
+  "version": "1.0.0",
+  "description": "A Golden Thoughts Project web client",
+  "author": "Žiga Pavlin",
+  "private": true,
+  "scripts": {
+    "dev": "backpack dev",
+    "build": "nuxt build && backpack build",
+    "start": "cross-env NODE_ENV=production node build/main.js"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^3.0.4",
+    "apollo-link-http": "^1.5.1",
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.0.1",
+    "express": "^4.15.3",
+    "express-session": "^1.15.6",
+    "graphql": "^0.13.1",
+    "graphql-tag": "^2.8.0",
+    "jsonwebtoken": "^8.1.1",
+    "nuxt": "^1.0.0-rc3",
+    "source-map-support": "^0.4.15"
+  },
+  "devDependencies": {
+    "backpack-core": "^0.4.1"
+  }
+}

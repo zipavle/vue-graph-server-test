@@ -1,0 +1,41 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Name Surname",
+			"password": "asdasd",
+			"email": "test.test@test.test"
+		},
+		{
+			"id": 2,
+			"name": "Test Testič",
+			"password": "asdasd",
+			"email": "test@test.test"
+		},
+		{
+			"id": "8681cf37-08f1-40d8-b5a2-a65b368361fd",
+			"password": "$2a$10$qS8C0sGVpB07DjbHhf67ouk69QRb/6EtlDVRZ/UOfZiHZCHwq88YW",
+			"name": "test testič",
+			"username": "test",
+			"email": "test@test.test",
+			"session": "8G0L-os6e019AZTq6LKRZs22y_enLn9G"
+		}
+	],
+	"posts": [
+		{
+			"id": 1,
+			"title": "post 1",
+			"user": 1
+		},
+		{
+			"id": 2,
+			"title": "post 2",
+			"user": 1
+		},
+		{
+			"id": 3,
+			"title": "post 3",
+			"user": 2
+		}
+	]
+}
